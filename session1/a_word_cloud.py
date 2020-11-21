@@ -24,7 +24,9 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # Create a list of word
-text = ("Python Python Python Matplotlib Matplotlib Seaborn Network Plot Violin Chart Pandas Datascience Wordcloud Spider Radar Parrallel Alpha Color Brewer Density Scatter Barplot Barplot Boxplot Violinplot Treemap Stacked Area Chart Chart Visualization Dataviz Donut Pie Time-Series Wordcloud Wordcloud Sankey Bubble")
+#text = ("Python Python Python Matplotlib Matplotlib Seaborn Network Plot Violin Chart Pandas Datascience Wordcloud Spider Radar Parrallel Alpha Color Brewer Density Scatter Barplot Barplot Boxplot Violinplot Treemap Stacked Area Chart Chart Visualization Dataviz Donut Pie Time-Series Wordcloud Wordcloud Sankey Bubble")
+
+text = ("fdtgtgrgf fghfghgfhgfh fhfghfghfghgfhfg")
 
 # Create the wordcloud object
 wordcloud = WordCloud(width=480, height=480, margin=0).generate(text)
@@ -38,7 +40,11 @@ plt.show()
 
 # Let's do it using a text file
 
+<<<<<<< HEAD
 text = open('../data/text_article.txt').read()
+=======
+text = open('../new_data/spatial_dataset.txt').read()
+>>>>>>> 31849f5c016a7406bf35efcd1f3368055c874fe8
 text = text.upper()
 
 # Create the wordcloud object
@@ -49,3 +55,6 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
 plt.margins(x=0, y=0)
 plt.show()
+
+
+
