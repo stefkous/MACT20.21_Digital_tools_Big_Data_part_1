@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-biotopes_south = pd.read_csv('../data/south_cor.csv', delimiter=',', error_bad_lines=False)
+biotopes_south = pd.read_csv('../Stephania_Kousoula/Poster_Assignment/code/south_corridor_wetlands.csv', delimiter=',', error_bad_lines=False)
 
 
 # Slicing the two columns I am interested in
